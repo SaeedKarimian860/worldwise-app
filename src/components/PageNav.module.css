@@ -1,5 +1,5 @@
 .nav {
-    background-color: orangered;
+  background-color: orangered;
 }
 
 .nav ul {
@@ -9,5 +9,5 @@
 }
 
 .nav :global(.active) {
-    background-color: green;
+  background-color: green;
 }
