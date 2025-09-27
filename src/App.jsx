@@ -19,7 +19,7 @@ function App() {
       try {
         setIsLoading(true);
         const res = await fetch(`$
-          {BASE_URL}/cities`);
+        {BASE_URL}/cities`);
         const data = await res.json();
         setCities(data);
       } catch {
