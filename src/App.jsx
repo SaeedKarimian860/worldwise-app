@@ -21,7 +21,6 @@ function App() {
   useEffect(function () {
     async function fetchCities() {
       try {
-        
         setIsLoading(true);
         const res = await fetch(`$
         {BASE_URL}/cities`);
