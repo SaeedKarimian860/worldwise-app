@@ -22,7 +22,6 @@ function CityItem({ city }) {
         <time className={styles.date}>({formatDate(date)})</time>
         <button className={styles.
         deleteBtn}>&times;</button>
-        
       </Link>
     </li>
   );
