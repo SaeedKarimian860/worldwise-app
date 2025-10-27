@@ -14,7 +14,6 @@ function CityItem({ city }) {
   return (
     <li>
       <Link
-      
         className={styles.cityItem}
         to={`${id}?lat=${position.lat}&lng={position.lng}`}
       >
