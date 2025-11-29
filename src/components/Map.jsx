@@ -5,7 +5,6 @@ import { useCities } from "../contexts/CitiesContext";
 
 function Map() {
   const navigate = useNavigate();
-
   const { cities } = useCities();
 
   const [mapPosition, setMapPosition] = useState([40, 0]);
@@ -32,7 +31,7 @@ function Map() {
             key={city.id}
           >
             <Popup>
-              <span>{city.emoji}</span> <span>{city.cityName}</span> 
+              <span>{city.emoji}</span> <span>{city.cityName}</span>
             </Popup>
           </Marker>
         ))}
