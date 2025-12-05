@@ -18,6 +18,7 @@ function Map() {
   const [searchParams] = useSearchParams();
   const {
     isLoading: isLoadingPosition,
+    
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
