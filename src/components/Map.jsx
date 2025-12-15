@@ -59,7 +59,6 @@ function Map() {
         />
         {cities.map((city) => (
           <Marker
-          
             position={[city.position.lat, city.position.lng]}
             key={city.id}
           >
