@@ -91,4 +91,5 @@ function DetectClick() {
   });
 }
 
+
 export default Map;
